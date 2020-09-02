@@ -4,6 +4,7 @@ import re, sys, os
 def check_args_values():
     if len(sys.argv) is not 2:
         print("Correct usage: wordCount.py <input text file>")
+        print("NOTE: If you are testing with wordCountTest.py then please ignore this message")
         exit()
 
 # Check if the file exits
