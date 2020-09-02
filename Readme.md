@@ -40,7 +40,8 @@ encourage students to use that dialect of Python.
 
 ### Usage
 
-To read in the file with wordCountTest.py, please provide a command line argument with the input filename as so:
+To read in the file with wordCountTest.py, please provide a command line argument with the input filename as so
+
 `$ python wordCount.py <filename>`
 
 
@@ -48,6 +49,20 @@ Heres an additional example with speech.txt
 
 `$ python wordCount.py speech.txt`
 
+## Notes
+wordCountTest.py needs to be modified for Windows OS so please change this line
+
+`
+#execute the program with 
+subprocess.call(["python3", "./wordCount.py", textFname, outputFname])
+`
+
+into this
+
+`
+#execute the program with 
+subprocess.call(["python", "./wordCount.py", textFname, outputFname])
+`
 
 
 
