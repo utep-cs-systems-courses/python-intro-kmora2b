@@ -53,14 +53,12 @@ Heres an additional example with speech.txt
 wordCountTest.py needs to be modified for Windows OS so please change this line
 
 `
-#execute the program with 
 subprocess.call(["python3", "./wordCount.py", textFname, outputFname])
 `
 
 into this
 
 `
-#execute the program with 
 subprocess.call(["python", "./wordCount.py", textFname, outputFname])
 `
 
